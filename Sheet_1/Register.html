@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #87CEEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #87CEEB;
+    padding: 15px;
+    width: 80%;
+    border-width: 2px 5px;
+    border-color: black blue;
+    border-style:solid ;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+label {
+    margin-top: 8px;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-group label {
+    width: 120px;
+}
+.form-group input {
+    flex: 1; 
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.gender-options {
+    display: flex;
+    gap: 10px;
+}
+button {
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0 0 300px;
+    width: 12%;
+}
+
+button:hover {
+    background-color: navy;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <h2>Simple HTML Contact Form</h2>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Full Name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="gender-options">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
