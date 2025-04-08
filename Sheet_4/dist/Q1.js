@@ -9,6 +9,7 @@ function isPrime(n) {
     }
     return true;
 }
+
 function TheFinalResult() {
     const Ele = document.getElementById("ser");
     const btn = document.getElementById("btn");

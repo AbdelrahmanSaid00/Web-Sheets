@@ -1,4 +1,4 @@
-//Q1
+//Question 1
 function isPrime(n:number) : boolean {
     if(n < 2) return false;
     for(let i =2 ; i * i <= n; i++) {
