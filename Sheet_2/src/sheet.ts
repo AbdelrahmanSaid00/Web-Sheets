@@ -5,6 +5,7 @@ function addition(num:number , num2:number , num3?:number ) {
 function subtraction(n1:number , n2:number , n3?:number ) {
     return n1 - n2 - (n3??0);
 }
+
 function multiplication(n1:number , n2:number , n3?:number ) {
     return n1 * n2 * (n3??1);
 }

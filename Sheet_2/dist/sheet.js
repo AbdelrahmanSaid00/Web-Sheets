@@ -5,6 +5,7 @@ function addition(num, num2, num3) {
 function subtraction(n1, n2, n3) {
     return n1 - n2 - (n3 !== null && n3 !== void 0 ? n3 : 0);
 }
+
 function multiplication(n1, n2, n3) {
     return n1 * n2 * (n3 !== null && n3 !== void 0 ? n3 : 1);
 }
