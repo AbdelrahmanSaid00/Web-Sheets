@@ -1,4 +1,5 @@
 // Question 1 of sheet 2 TS Simple Calculater
+
 /*
 const Number1 = document.getElementById("num1") as HTMLInputElement;
 const Number2 = document.getElementById("num2") as HTMLInputElement;

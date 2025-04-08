@@ -1,4 +1,5 @@
 // Question 4 Factors of the Number
+
 const NUmber = document.getElementById("num") as HTMLInputElement;
 const Display = document.getElementById("btn") as HTMLButtonElement;
 const table = document.getElementById("table") as HTMLTableElement;

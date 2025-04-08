@@ -8,6 +8,7 @@ const res = document.getElementById("data");
 function ConvertTem() {
     const Num = parseFloat(Tem.value);
     if (isNaN(Num)) {
+        
         res.textContent = "❌ Please enter a valid number!";
         return;
     }

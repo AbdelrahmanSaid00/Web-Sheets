@@ -16,6 +16,7 @@ function SubmitOrder() {
     if (!SizeOfPizza.value) {
         invalid = false;
     }
+    
     else {
         ErrorMaggage.textContent = "";
     }
