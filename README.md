@@ -51,16 +51,16 @@ Contains the original TypeScript source files.
 ### **Commands** 
 
  
-# 1.Install dependencies
-npm install
-# 2. Compile TypeScript to JavaScript
- tsc
+1. Install dependencies
+- npm install
+2. Compile TypeScript to JavaScript
+- tsc
 
-# 3. View a solution (e.g., Sheet 3)
+ 3. View a solution (e.g., Sheet 3)
 
-On Windows: start docs/sheet3.html
+- On Windows: start docs/sheet3.html
 
-On macOS/Linux: open docs/sheet3.html
+- On macOS/Linux: open docs/sheet3.html
 
 ---
  
