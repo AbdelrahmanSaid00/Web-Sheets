@@ -5,7 +5,6 @@ interface Pizza {
     Size:string,
     Topping :string [];
 };
-
 function SubmitOrder () {
     const NameInput = document.getElementById("pizza") as HTMLInputElement;
     const SizeOfPizza = document.getElementById("size") as HTMLInputElement;

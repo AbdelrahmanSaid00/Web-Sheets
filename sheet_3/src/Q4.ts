@@ -6,7 +6,6 @@ const table = document.getElementById("table") as HTMLTableElement;
 
 function FindFactors () {
     const P = parseFloat(NUmber.value);
-
     if(isNaN(P) || P < 0) {
         console.log("Error Please Enter Positive Number");
         return;

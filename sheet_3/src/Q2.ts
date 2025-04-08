@@ -1,6 +1,5 @@
 // Question 2 of sheet 2 TS Temperature Converter
 
-
 const Tem = document.getElementById("cal") as HTMLInputElement;
 const fahrenInput = document.getElementById("fahrenheit") as HTMLInputElement;
 const kelvinInput = document.getElementById("kelvin") as HTMLInputElement;

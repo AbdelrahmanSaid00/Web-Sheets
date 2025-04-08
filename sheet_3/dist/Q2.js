@@ -1,4 +1,5 @@
 "use strict";
+
 const Tem = document.getElementById("cal");
 const fahrenInput = document.getElementById("fahrenheit");
 const kelvinInput = document.getElementById("kelvin");

@@ -19,7 +19,6 @@ function calculate() {
         return;
     }
     if (NumT === 0) {
-        
         Erro.textContent = "Number two is : Zero , so it is Imposible to make Devision";
         return;
     }

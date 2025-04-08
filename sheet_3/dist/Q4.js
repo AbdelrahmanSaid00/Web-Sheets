@@ -9,7 +9,6 @@ function FindFactors() {
         return;
     }
     let ArrayOfFactor = [];
-    
     for (let i = 1; i <= P; i++) {
         if (P % i === 0) {
             ArrayOfFactor.push(i);
