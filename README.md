@@ -62,8 +62,14 @@ Contains the original TypeScript source files.
 
 - On macOS/Linux: open docs/sheet3.html
 
+ 
+## 🙏 Special Thanks
+
+Big thanks to my friends who helped and supported me in this project:
+
+- [Maro Wael](https://github.com/MaroWael)
+- [Yousef Mahmud](https://github.com/usefmahmud)
+
 ---
- 
- 
 
 Feel free to contribute or modify the solutions as needed. 🚀  
