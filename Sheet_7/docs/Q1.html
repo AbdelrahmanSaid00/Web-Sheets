@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+    
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="" id="form-valid" class="Error">
+        <h2> <small id="uError"> Username :</small><br>
+            <input type="text" placeholder="Enter your name..." 
+            id="name"
+            >
+        </h2>
+        <h2> <small id="pError" class="Error"> Password :</small><br> 
+            <button id="btnp" type="button">show</button><br>
+            <input type="password" placeholder="Enter your password..."
+            id="pass"
+            >
+        </h2>
+        <h2>
+            <small id="sError" class="Error"> Semester : </small><br>
+            <select name="seme" id="semester">
+                <option value="Select your Semester..">Select your Semester..</option>
+                <option value="First">First Level</option>
+                <option value="Seconed">Seconed Level</option>
+                <option value="Therd">Therd Level</option>
+            </select>
+        </h2>
+        <h2>
+            Course Token : 
+            <input type="checkbox" id="comp102" name="comp102"> Comp102
+            <input type="checkbox" id="comp206" name="comp206"> Comp206
+            <input type="checkbox" id="math102" name="math102"> math102
+        </h2>
+        <h2>
+            <input type="checkbox" name="sign" id="sign"> Sign up for news letter
+        </h2>
+        <button type="submit" id="btn">Register</button> <br><br>
+    </form>
+    <script src="../dist/Q1.js"></script>
+</body>
+</html>
