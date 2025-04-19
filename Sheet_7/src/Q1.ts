@@ -12,6 +12,7 @@ const PassError     = document.getElementById("pError")     as HTMLElement;
 const SelectError   = document.getElementById("sError")     as HTMLElement;
 const SwapPassword  = document.getElementById("btnp")       as HTMLButtonElement;
 
+
 function checkName() {
     let Username = UsernameInput.value.trim();
     return (Username || (Username.length >=6 && Username.length <= 16))
